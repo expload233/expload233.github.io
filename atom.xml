@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://50sfxn.coding-pages.com</id>
     <title>expload&apos;s blog</title>
-    <updated>2020-09-11T12:25:59.716Z</updated>
+    <updated>2020-09-19T14:01:08.425Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://50sfxn.coding-pages.com"/>
     <link rel="self" href="https://50sfxn.coding-pages.com/atom.xml"/>
@@ -10,6 +10,19 @@
     <logo>https://50sfxn.coding-pages.com/images/avatar.png</logo>
     <icon>https://50sfxn.coding-pages.com/favicon.ico</icon>
     <rights>All rights reserved 2020, expload&apos;s blog</rights>
+    <entry>
+        <title type="html"><![CDATA[👴i了，国庆据说没得语文作业]]></title>
+        <id>https://50sfxn.coding-pages.com/post/gqmywzy/</id>
+        <link href="https://50sfxn.coding-pages.com/post/gqmywzy/">
+        </link>
+        <updated>2020-09-19T13:53:14.000Z</updated>
+        <summary type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://50sfxn.coding-pages.com/post-images/1600523629881.jpg" alt="" loading="lazy"></figure>
+]]></summary>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://50sfxn.coding-pages.com/post-images/1600523629881.jpg" alt="" loading="lazy"></figure>
+<!-- more -->
+<p><strong>没啥好说的，爽！</strong></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[终于回家了。。。]]></title>
         <id>https://50sfxn.coding-pages.com/post/zhong-yu-hui-jia-liao/</id>
