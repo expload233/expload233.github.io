@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://50sfxn.coding-pages.com</id>
     <title>expload的笔记本</title>
-    <updated>2020-10-01T14:24:09.500Z</updated>
+    <updated>2020-10-01T14:26:02.328Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://50sfxn.coding-pages.com"/>
     <link rel="self" href="https://50sfxn.coding-pages.com/atom.xml"/>
@@ -17,8 +17,7 @@
         </link>
         <updated>2020-10-01T13:48:59.000Z</updated>
         <content type="html"><![CDATA[<p>我们会预计在10.2组织一场活动{逛漫展}<br>
-具体地址在：鄂尔多斯饭店<br>
-`<!DOCTYPE html></p>
+具体地址在：鄂尔多斯饭店</p>
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -109,7 +108,7 @@
     var map;
       initMap();
   </script>
-</html>`]]></content>
+</html>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[👴i了，国庆据说没得语文作业]]></title>
