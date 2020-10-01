@@ -1,17 +1,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=0">
-    <meta name="description" content="
-欢迎来到我的小站呀，很高兴遇见你！🤝
+    <meta name="description" content="我们会预计在10.2组织一场活动{逛漫展}
+具体地址在：鄂尔多斯饭店
+`
 
-🏠 关于本站
-expload在生活中的日常📜，与一些有趣的技术问题解决
-👨‍💻 博主是谁
-某高中的学生🎒
-⛹ 兴趣爱好
-👋👋👋
-📬 联系我呀
-expload@expload.cn..." />
+  
+    
+    
+    
+    百度地图API自定义地图
+    
+    
+  
+  
+    
+    
+    地图生成工具基于百度地图JS ap..." />
     <meta name="keywords" content="" />
     <link rel="stylesheet" href="https://50sfxn.coding-pages.com/media/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://50sfxn.coding-pages.com/styles/main.css">
@@ -443,23 +448,21 @@ expload@expload.cn..." />
         <div class="postshow" style="padding-bottom: 0;">
             
             <div class="postdetailimg" style="width:100%;overflow: hidden;">
-                
-                <img src="https://expload233.coding.net/api/share/image/30fbfbd4-8f86-40c1-866f-c13b6fa9265b" class="postimage">
-                
+                <img src="https://50sfxn.coding-pages.com/post-images/guo-qing-huo-dong.jpg" class="postimage" style="cursor:auto">
             </div>
             <div class="postinfo-detail">
-                <div class="postdate"><i class="fa fa-calendar"></i>2020-08-29</div>
-            <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 1 min read</div>
-            <div class="posttag">
-                
+                <div class="postdate"><i class="fa fa-calendar"></i>2020-10-01</div>
+                <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 3 min read</div>
+                <div class="posttag">
+                    
+                </div>
             </div>
-        </div>
-        
+            
         <div id="articlecontent">
             <div id="texttitle" style="text-align: center">
-                <h2>关于</h2>
+                <h2>国庆活动</h2>
                 <!-- id 将作为查询条件 -->
-                <div id="pl" style="display:none">https://50sfxn.coding-pages.com/post/about/</div>
+                <div id="pl" style="display:none">https://50sfxn.coding-pages.com/post/guo-qing-huo-dong/</div>
                 <div id="rootaddr" style="display:none">https://50sfxn.coding-pages.com</div>
                 <span id="hotnum">
                     <h4><i class="fa fa-eye" aria-hidden="true" style="color: #FF8C00;"></i>&nbsp;&nbsp;热度</i>: <i
@@ -467,20 +470,100 @@ expload@expload.cn..." />
                 </span>
             </div>
             <div class="text ">
-                <blockquote>
-<p>欢迎来到我的小站呀，很高兴遇见你！🤝</p>
-</blockquote>
-<h2 id="关于本站">🏠 关于本站</h2>
-<p>expload在生活中的日常📜，与一些有趣的技术问题解决</p>
-<h2 id="博主是谁">👨‍💻 博主是谁</h2>
-<p>某高中的学生🎒</p>
-<h2 id="兴趣爱好">⛹ 兴趣爱好</h2>
-<p>👋👋👋</p>
-<h2 id="联系我呀">📬 联系我呀</h2>
-<p>expload@expload.cn<br>
-expload@qq.com<br>
-mui678@hotmail.com</p>
-
+                <p>我们会预计在10.2组织一场活动{逛漫展}<br>
+具体地址在：鄂尔多斯饭店<br>
+`<!DOCTYPE html></p>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="百度地图,百度地图API，百度地图自定义工具，百度地图所见即所得工具" />
+    <meta name="description" content="百度地图API自定义地图，帮助用户在可视化操作下生成百度地图" />
+    <title>百度地图API自定义地图</title>
+    <!--引用百度地图API-->
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=dVQCBRzBaczq5exgYuWhT8CBsvAMNv3t"></script>
+  </head>
+  <body>
+    <!--百度地图容器-->
+    <div style="width:700px;height:550px;border:#ccc solid 1px;font-size:12px" id="map"></div>
+    <p style="color:red;font-weight:600">地图生成工具基于百度地图JS api v2.0版本开发，使用请申请密匙。
+      <a href="http://developer.baidu.com/map/index.php?title=jspopular/guide/introduction" style="color:#2f83c7" target="_blank">了解如何申请密匙</a>
+      <a href="http://lbsyun.baidu.com/apiconsole/key?application=key" style="color:#2f83c7" target="_blank">申请密匙</a>
+    </p>
+  </body>
+  <script type="text/javascript">
+    //创建和初始化地图函数：
+    function initMap(){
+      createMap();//创建地图
+      setMapEvent();//设置地图事件
+      addMapControl();//向地图添加控件
+      addMapOverlay();//向地图添加覆盖物
+    }
+    function createMap(){ 
+      map = new BMap.Map("map"); 
+      map.centerAndZoom(new BMap.Point(109.998857,39.823654),16);
+    }
+    function setMapEvent(){
+      map.enableScrollWheelZoom();
+      map.enableKeyboard();
+      map.enableDragging();
+      map.enableDoubleClickZoom()
+    }
+    function addClickHandler(target,window){
+      target.addEventListener("click",function(){
+        target.openInfoWindow(window);
+      });
+    }
+    function addMapOverlay(){
+      var markers = [
+        {content:"10点前到位",title:"漫展举办地",imageOffset: {width:0,height:3},position:{lat:39.822767,lng:109.998102}}
+      ];
+      for(var index = 0; index < markers.length; index++ ){
+        var point = new BMap.Point(markers[index].position.lng,markers[index].position.lat);
+        var marker = new BMap.Marker(point,{icon:new BMap.Icon("http://api.map.baidu.com/lbsapi/createmap/images/icon.png",new BMap.Size(20,25),{
+          imageOffset: new BMap.Size(markers[index].imageOffset.width,markers[index].imageOffset.height)
+        })});
+        var label = new BMap.Label(markers[index].title,{offset: new BMap.Size(25,5)});
+        var opts = {
+          width: 200,
+          title: markers[index].title,
+          enableMessage: false
+        };
+        var infoWindow = new BMap.InfoWindow(markers[index].content,opts);
+        marker.setLabel(label);
+        addClickHandler(marker,infoWindow);
+        map.addOverlay(marker);
+      };
+      var labels = [
+        {position:{lng:109.997869,lat:39.822618},content:"芜湖"}
+      ];
+      for(var index = 0; index < labels.length; index++){
+        var opt = { position: new BMap.Point(labels[index].position.lng,labels[index].position.lat )};
+        var label = new BMap.Label(labels[index].content,opt);
+        map.addOverlay(label);
+      };
+      var plOpts = [
+      ];
+      var plPath = [
+      ];
+      for(var index = 0; index < plOpts.length; index++){
+        var polyline = new BMap.Polyline(plPath[index],plOpts[index]);
+        map.addOverlay(polyline);
+      }
+    }
+    //向地图添加控件
+    function addMapControl(){
+      var scaleControl = new BMap.ScaleControl({anchor:BMAP_ANCHOR_TOP_RIGHT});
+      scaleControl.setUnit(BMAP_UNIT_IMPERIAL);
+      map.addControl(scaleControl);
+      var navControl = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:1});
+      map.addControl(navControl);
+      var overviewControl = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_BOTTOM_LEFT,isOpen:true});
+      map.addControl(overviewControl);
+    }
+    var map;
+      initMap();
+  </script>
+</html>`
             </div>
             <hr style="width: 80%;">
             
@@ -517,13 +600,25 @@ mui678@hotmail.com</p>
             <div class="postfooter">
                 <ul class="post-copyright">
                     <li><strong>文章作者：</strong>expload</li>
-            <li><strong>原文链接：</strong>https://50sfxn.coding-pages.com/post/about/</li>
+            <li><strong>原文链接：</strong>https://50sfxn.coding-pages.com/post/guo-qing-huo-dong/</li>
             <li><strong>版权声明：</strong>本博客所有文章除特别声明外，均采用<i class="fa fa-fw fa-creative-commons"></i>BY-NC-SA
                 许可协议。转载请注明出处！</li>
             </ul>
         </div>
         <div id="otherpost">
             
+            
+            <div class="next-post-pc">
+                <div id="npcontainer" onclick="window.location.href= 'https://50sfxn.coding-pages.com/post/gqmywzy/';return false">
+                    
+                    <img src="https://50sfxn.coding-pages.com/post-images/gqmywzy.jpg" style="width: 100%;" class="opimg">
+                    
+                    <h4 class="optitle">👴i了，国庆据说没得语文作业</h4>
+                </div>
+            </div>
+            <div class="next-post">
+                下一篇 <a href="https://50sfxn.coding-pages.com/post/gqmywzy/">👴i了，国庆据说没得语文作业</a>
+            </div>
             
         </div>
     </div>
@@ -667,17 +762,7 @@ mui678@hotmail.com</p>
 </script>
         
         <div class="toc-container">
-            <ul class="markdownIt-TOC">
-<li>
-<ul>
-<li><a href="#%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99">🏠 关于本站</a></li>
-<li><a href="#%E5%8D%9A%E4%B8%BB%E6%98%AF%E8%B0%81">👨‍💻 博主是谁</a></li>
-<li><a href="#%E5%85%B4%E8%B6%A3%E7%88%B1%E5%A5%BD">⛹ 兴趣爱好</a></li>
-<li><a href="#%E8%81%94%E7%B3%BB%E6%88%91%E5%91%80">📬 联系我呀</a></li>
-</ul>
-</li>
-</ul>
-
+            
     </div>
     </div>
     </div>
@@ -915,7 +1000,7 @@ mui678@hotmail.com</p>
                 var nc = new NewCounter();
                 nc.save({
                     time: 1,
-                    title: "关于",
+                    title: "国庆活动",
                     url: pl,
                     xid: pl,
                 }).then(function (object) {
