@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://50sfxn.coding-pages.com</id>
     <title>expload的笔记本</title>
-    <updated>2020-10-01T15:13:08.189Z</updated>
+    <updated>2020-10-17T12:59:11.704Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://50sfxn.coding-pages.com"/>
     <link rel="self" href="https://50sfxn.coding-pages.com/atom.xml"/>
@@ -11,43 +11,12 @@
     <icon>https://50sfxn.coding-pages.com/favicon.ico</icon>
     <rights>All rights reserved 2020, expload的笔记本</rights>
     <entry>
-        <title type="html"><![CDATA[国庆活动]]></title>
-        <id>https://50sfxn.coding-pages.com/post/guo-qing-huo-dong/</id>
-        <link href="https://50sfxn.coding-pages.com/post/guo-qing-huo-dong/">
+        <title type="html"><![CDATA[换主题了]]></title>
+        <id>https://50sfxn.coding-pages.com/post/huan-zhu-ti-liao/</id>
+        <link href="https://50sfxn.coding-pages.com/post/huan-zhu-ti-liao/">
         </link>
-        <updated>2020-10-01T13:48:59.000Z</updated>
-        <content type="html"><![CDATA[<p>我们会预计在10.2组织一场活动{逛漫展}<br>
-具体地址在：鄂尔多斯饭店<br>
-具体请联系：18647756072</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[👴i了，国庆据说没得语文作业]]></title>
-        <id>https://50sfxn.coding-pages.com/post/gqmywzy/</id>
-        <link href="https://50sfxn.coding-pages.com/post/gqmywzy/">
-        </link>
-        <updated>2020-09-19T13:53:14.000Z</updated>
-        <summary type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://50sfxn.coding-pages.com/post-images/1600523629881.jpg" alt="" loading="lazy"></figure>
-]]></summary>
-        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://50sfxn.coding-pages.com/post-images/1600523629881.jpg" alt="" loading="lazy"></figure>
-<!-- more -->
-<p><strong>没啥好说的，爽！</strong></p>
-<p>事实证明是想屁吃</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[终于回家了。。。]]></title>
-        <id>https://50sfxn.coding-pages.com/post/zhong-yu-hui-jia-liao/</id>
-        <link href="https://50sfxn.coding-pages.com/post/zhong-yu-hui-jia-liao/">
-        </link>
-        <updated>2020-09-11T11:43:12.000Z</updated>
-        <summary type="html"><![CDATA[<p><img src="https://50sfxn.coding-pages.com/post-images/1599827120325.jpg" alt="" loading="lazy"><br>
-在经历了11天的<s>折磨</s>快乐的住校生活后，叔叔我啊，终于是回家了</p>
-]]></summary>
-        <content type="html"><![CDATA[<p><img src="https://50sfxn.coding-pages.com/post-images/1599827120325.jpg" alt="" loading="lazy"><br>
-在经历了11天的<s>折磨</s>快乐的住校生活后，叔叔我啊，终于是回家了</p>
-<!-- more -->
-<p>8说了，我去玩游戏了</p>
+        <updated>2020-10-17T12:55:03.000Z</updated>
+        <content type="html"><![CDATA[<p>提高了相应速度，页面也更简洁了ohhhhhhhhhhhhhhh</p>
 ]]></content>
     </entry>
 </feed>
