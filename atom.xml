@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://50sfxn.coding-pages.com</id>
     <title>expload的笔记本</title>
-    <updated>2020-10-25T06:27:59.342Z</updated>
+    <updated>2020-10-25T06:29:20.315Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://50sfxn.coding-pages.com"/>
     <link rel="self" href="https://50sfxn.coding-pages.com/atom.xml"/>
@@ -16,14 +16,14 @@
         <link href="https://50sfxn.coding-pages.com/post/KDkEpjzEh/">
         </link>
         <updated>2020-10-25T05:08:31.000Z</updated>
-        <content type="html"><![CDATA[<script src="http://cdn.bootcdn.net/ajax/libs/flv.js/1.5.0/flv.min.js"></script>
+        <content type="html"><![CDATA[<script src="https://cdn.bootcdn.net/ajax/libs/flv.js/1.5.0/flv.min.js"></script>
 <p><video id="videoElement"></video></p>
 <script>
     if (flvjs.isSupported()) {
         var videoElement = document.getElementById('videoElement');
         var flvPlayer = flvjs.createPlayer({
             type: 'mp4',
-            url: 'http://152.136.147.183:8888/down/efOC7l6ImbvM'
+            url: 'https://expload233.coding.net/s/312663ed-45be-4a84-9e48-08fd7028435a'
         });
         flvPlayer.attachMediaElement(videoElement);
         flvPlayer.load();
