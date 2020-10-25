@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://50sfxn.coding-pages.com</id>
     <title>expload的笔记本</title>
-    <updated>2020-10-25T05:59:08.478Z</updated>
+    <updated>2020-10-25T06:23:01.008Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://50sfxn.coding-pages.com"/>
     <link rel="self" href="https://50sfxn.coding-pages.com/atom.xml"/>
@@ -10,6 +10,27 @@
     <logo>https://50sfxn.coding-pages.com/images/avatar.png</logo>
     <icon>https://50sfxn.coding-pages.com/favicon.ico</icon>
     <rights>All rights reserved 2020, expload的笔记本</rights>
+    <entry>
+        <title type="html"><![CDATA[英语老师の痛]]></title>
+        <id>https://50sfxn.coding-pages.com/post/KDkEpjzEh/</id>
+        <link href="https://50sfxn.coding-pages.com/post/KDkEpjzEh/">
+        </link>
+        <updated>2020-10-25T05:08:31.000Z</updated>
+        <content type="html"><![CDATA[<script src="https://cdn.bootcdn.net/ajax/libs/flv.js/1.5.0/flv.min.js"></script>
+<p><video id="videoElement"></video></p>
+<script>
+    if (flvjs.isSupported()) {
+        var videoElement = document.getElementById('videoElement');
+        var flvPlayer = flvjs.createPlayer({
+            type: 'mp4',
+            url: 'https://expload-my.sharepoint.com/personal/expload_expload_onmicrosoft_com/Documents/generated5.mp4'
+        });
+        flvPlayer.attachMediaElement(videoElement);
+        flvPlayer.load();
+        flvPlayer.play();
+    }
+</script>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[换主题了]]></title>
         <id>https://50sfxn.coding-pages.com/post/huan-zhu-ti-liao/</id>
