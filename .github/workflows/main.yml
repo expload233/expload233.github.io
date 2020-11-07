@@ -1,0 +1,27 @@
+name: Deploy to Tencent CloudBase
+
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Deploy Hexo Souce Repo to Tencent CloudBase
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: '10.x'
+      # NPM Deploy
+      - name: NPM
+        run: npm install
+      # Deploy static to Tencent CloudBase
+      - name: Deploy static to Tencent CloudBase
+        id: deployStatic
+        uses: TencentCloudBase/cloudbase-action@v1.1.1
+        with:
+          secretId: ${{ secrets.SECRET_ID }}
+          secretKey: ${{ secrets.SECRET_KEY }}
+          envId: ${{ secrets.ENV_ID }}
+          staticSrcPath: /home/runner/work/expload233.github.io/expload233.github.io
